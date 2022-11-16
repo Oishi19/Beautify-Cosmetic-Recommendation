@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 24 19:56:54 2018
-
-@author: jjone
-"""
-
 # This is the part 2 of cosmetic recommendation: analyzing cosmetic items similarities based on their ingredients
 # You can also daownload the csv file from same repository: cosmetic.csv
 
