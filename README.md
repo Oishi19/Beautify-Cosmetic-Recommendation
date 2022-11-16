@@ -3,7 +3,7 @@
 
 <br>
 
-## ***1. For a Healthy Skin: What Can We Do for Ourselves?***
+## ***1. What Can We Do for a Healthy Skin?***
 It's always so challenging for me to decide which new cosmetic product will work best for me.   It can be really  unsettling because I frequently experience skin problems after trying something new. You might be able to empathize with this situation if you share my experience. We are aware that the back of the cosmetic bottles will provide the details we require here. But if you aren't a chemist, it's incredibly difficult to deduce anything from these product names.
 So instead of just being worried about new choices, I decided to build a simple cosmetic recommendation on my own.
 <br>
@@ -28,3 +28,4 @@ So instead of just being worried about new choices, I decided to build a simple 
 ## ***3. What's Next?***
 - Gather more data and make my own database with MySQL.
 - Create a practical Web Page/App using Flask  
+- Create a better comparing model through Neural Network
