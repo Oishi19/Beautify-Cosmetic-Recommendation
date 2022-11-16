@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Nov 24 19:56:54 2018
-
-@author: jjone
+@author: Oishi
 """
 
-# This is the part 1 of cosmetic recommendation: scraping cosmetic data from sephora
-# You can also daownload the csv file from same repository: cosmetic.csv
+# This is the part 1 of cosmetic recommendation: scraping cosmetic data from nykaa
+# Download the csv file from same repository: cosmetic.csv
 
 import time
 
@@ -16,7 +14,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 
-chrome_path = "C:\\Users\jjone\Downloads\chromedriver"
+chrome_path = "C:\\Users\Oishi\Downloads\chromedriver"
 
 def scrollDown(driver, n_scroll):
     body = driver.find_element_by_tag_name("body")
@@ -47,7 +45,7 @@ tickers = ['moisturizing-cream-oils-mists', 'cleanser', 'facial-treatments', 'fa
            'eye-treatment-dark-circle-treatment', 'sunscreen-sun-protection']
 
 for ticker in tickers:
-    url = 'https://www.sephora.com/shop/' + ticker + '?pageSize=300'
+    url = 'https://www.nykaa.com/shop/' + ticker + '?pageSize=300'
     driver.get(url)
 
     xpath = '/html/body/div[5]/div/div/div[1]/div/div/button'
@@ -129,3 +127,10 @@ for i in range(len(df)+1):
 
 
 df.to_csv('data/cosmetic.csv', encoding = 'utf-8-sig', index = False)
+
+
+
+
+
+
+# https://towardsdatascience.com/for-your-skin-beauty-mapping-cosmetic-items-with-bokeh-af7523ca68e5
