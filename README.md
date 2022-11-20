@@ -1,4 +1,4 @@
-# Cosmetic Recommendation System
+# Beautify - a Cosmetic Recommendation System
  *Mapping cosmetic items based on their ingredients similarities and giving content-based filtering recommendation*
 
 <br>
